@@ -5,6 +5,8 @@ from src.preprocess import preprocess_image
 import pytesseract
 import cv2
 
+pytesseract.pytesseract.tesseract_cmd = 'usr/bin/tesseract'
+
 
 st.title('Text Extraction from Images')
 st.divider()
