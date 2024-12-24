@@ -5,7 +5,7 @@ from src.preprocess import preprocess_image
 import pytesseract
 import cv2
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = '/c/Program Files/Tesseract-OCR/tesseract'
 
 
 st.title('Text Extraction from Images')
